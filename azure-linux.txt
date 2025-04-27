@@ -678,17 +678,4 @@ UUID=2627-E70D          /boot/efi               vfat    defaults,uid=0,gid=0,uma
 #
 # After editing this file, run 'systemctl daemon-reload' to update systemd
 # units generated from this file.
-#
-/dev/mapper/rootvg-rootlv /                       xfs     defaults        0 0
-UUID=7e721891-6535-45b5-8f5f-31008df3f70a /boot                   xfs     defaults        0 0
-UUID=2627-E70D          /boot/efi               vfat    defaults,uid=0,gid=0,umask=077,shortname=winnt 0 2
-UUID=9513493c-fc74-4e74-8fde-e04a7bef5191       /data   xfs     defaults        0 0
-/dev/mapper/rootvg-homelv /home                   xfs     defaults        0 0
-/dev/mapper/rootvg-tmplv /tmp                    xfs     defaults        0 0
-/dev/mapper/rootvg-usrlv /usr                    xfs     defaults        0 0
-/dev/mapper/rootvg-varlv /var                    xfs     defaults        0 0
-/dev/disk/cloud/azure_resource-part1    /mnt    auto    defaults,nofail,x-systemd.requires=cloud-init.service,_netdev,comment=cloudconfig       0       2
-[root@web web]#
-[root@web web]#
-[root@web web]#
-[root@web web]#
+
